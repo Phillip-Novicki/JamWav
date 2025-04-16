@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Application/JamWav.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Application/JamWav.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Application/JamWav.Application.csproj",
+        "projectName": "JamWav.Application",
+        "projectPath": "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Application/JamWav.Application.csproj",
+        "packagesPath": "/Users/pnovicki/.nuget/packages/",
+        "outputPath": "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/pnovicki/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
