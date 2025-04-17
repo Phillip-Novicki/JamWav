@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net8.0": {
+      "JamWav.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/JamWav.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JamWav.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JamWav.Domain/1.0.0": {
+      "type": "project",
+      "path": "../JamWav.Domain/JamWav.Domain.csproj",
+      "msbuildProject": "../JamWav.Domain/JamWav.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net8.0": [
+      "JamWav.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/pnovicki/.nuget/packages/": {}
@@ -23,26 +42,36 @@
         "/Users/pnovicki/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "projectReferences": {}
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/JamWav.Domain.csproj": {
+              "projectPath": "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/JamWav.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -59,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.315/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
