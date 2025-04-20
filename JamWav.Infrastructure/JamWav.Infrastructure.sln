@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamWav.Infrastructure", "JamWav.Infrastructure.csproj", "{01F95D87-4BF4-4BF2-B4AE-54FFC9029CAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F95D87-4BF4-4BF2-B4AE-54FFC9029CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F95D87-4BF4-4BF2-B4AE-54FFC9029CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F95D87-4BF4-4BF2-B4AE-54FFC9029CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F95D87-4BF4-4BF2-B4AE-54FFC9029CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ADC52FE-1C0C-4961-800E-A391CB38B235}
+	EndGlobalSection
+EndGlobal

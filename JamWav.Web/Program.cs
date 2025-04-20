@@ -1,9 +1,20 @@
+using JamWav.Infrastructure.Persistence;
+using JamWav.Infrastructure.Repositories;
+using JamWav.Application.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddDbContext<JamWavDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("JamWavDb")));
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

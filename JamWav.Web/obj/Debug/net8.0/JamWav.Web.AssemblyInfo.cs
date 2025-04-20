@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c350e303-b777-49df-990e-444b0fb5af54")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("JamWav.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45a85d2a775034be6f2de89ab73335d6a558a9aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e395619a4c002a6bb6b744b632358de56113460")]
 [assembly: System.Reflection.AssemblyProductAttribute("JamWav.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JamWav.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

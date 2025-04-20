@@ -31,7 +31,7 @@ public class User : BaseEntity
 
     private void SetEmail(string email)
     {
-        if (string.IsNullOrWhiteSpace(email) || !email.Contains("@"))
+        if (string.IsNullOrWhiteSpace(email) || !email.Contains('@'))
         {
             throw new ArgumentException("Invalid email address.", nameof(email));
         }
