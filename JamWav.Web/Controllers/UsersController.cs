@@ -2,7 +2,7 @@ using JamWav.Application.Interfaces;
 using JamWav.Domain.Entities;
 using JamWav.Web.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Query.Internal;
+using JamWav.Web.Mapping;
 
 namespace JamWav.Web.Controllers;
 
@@ -32,11 +32,7 @@ public class UsersController : ControllerBase
             return BadRequest($"Username '{request.Username}' already exists");
         }
 
-        var user = new User(
-            request.Username,
-            request.Email,
-            request.DisplayName
-        );
+        var user = request.ToEntity();
 
         await _userRepository.AddAsync(user);
 
