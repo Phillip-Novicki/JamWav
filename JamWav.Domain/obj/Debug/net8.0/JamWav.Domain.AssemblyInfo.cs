@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JamWav.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7325c00234ff6ef6a4fc7b5b77a016359c2011bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a65d3055585009cf8231208171f970ec17bae3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("JamWav.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JamWav.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
