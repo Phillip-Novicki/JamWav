@@ -21,4 +21,8 @@
     <ProjectReference Include="..\JamWav.Web\JamWav.Web.csproj" />
     <ProjectReference Include="..\JamWav.Infrastructure\JamWav.Infrastructure.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Integration\" />
+  </ItemGroup>
 </Project>

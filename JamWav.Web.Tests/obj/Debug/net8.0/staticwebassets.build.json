@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "caydqNARJSrE0nEFAcLgXWz19Dxo3r04t798k2bxLPA=",
+  "Hash": "wqstNi5gs7Y1d9rdeC1bFmq0RiKQ3dMAXbQf3naMc9U=",
   "Source": "JamWav.Web.Tests",
   "BasePath": "_content/JamWav.Web.Tests",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "JamWav.Web",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

@@ -21,7 +21,8 @@ public class UsersController : ControllerBase
     public async Task<IActionResult> GetAllUsers()
     {
         var users = await _userRepository.GetAllAsync();
-        return Ok(users);
+        var responses = users.Select(u => u.ToResponse());
+        return Ok(responses);
     }
     [HttpGet("{id:guid}")]
     public async Task<IActionResult> GetUserById(Guid id)
@@ -29,7 +30,7 @@ public class UsersController : ControllerBase
         var user = await _userRepository.GetByIdAsync(id);
         if (user is null)
             return NotFound();
-        return Ok(user);
+        return Ok(user.ToResponse());
     }
     
     [HttpPost]
@@ -44,6 +45,6 @@ public class UsersController : ControllerBase
 
         await _userRepository.AddAsync(user);
 
-        return CreatedAtAction(nameof(GetAllUsers), new { id = user.Id }, user);
+        return CreatedAtAction(nameof(GetAllUsers), new { id = user.Id }, user.ToResponse());
     }
 }

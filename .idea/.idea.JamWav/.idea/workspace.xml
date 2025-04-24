@@ -11,23 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfbb8667-5ba8-4ab6-a0d6-532ab4cba1c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JamWav.Web.Tests/Utils/CustomWebApplicationFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JamWav/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JamWav/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net7.0/JamWav.Application.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net7.0/JamWav.Application.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net7.0/JamWav.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net7.0/JamWav.Application.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net7.0/JamWav.Application.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net7.0/JamWav.Application.csproj.AssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.sourcelink.json" afterDir="false" />
@@ -35,32 +29,34 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/refint/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/refint/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/ref/JamWav.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/ref/JamWav.Domain.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/refint/JamWav.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/refint/JamWav.Domain.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/JamWav.Domain.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/JamWav.Domain.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/JamWav.Domain.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/JamWav.Domain.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net7.0/JamWav.Domain.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net7.0/JamWav.Domain.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net7.0/JamWav.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net7.0/JamWav.Domain.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net7.0/JamWav.Domain.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net7.0/JamWav.Domain.csproj.AssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.sourcelink.json" afterDir="false" />
@@ -68,199 +64,44 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/refint/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/refint/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/JamWav.Infrastructure.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/JamWav.Infrastructure.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_JamWav.Infrastructure.Tests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Azure.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Azure.Identity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/CoverletSourceRootsMapping_JamWav.Infrastructure.Tests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Application.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Application.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Domain.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Domain.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Infrastructure.Tests.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Infrastructure.Tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Infrastructure.Tests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Infrastructure.Tests.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Infrastructure.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/JamWav.Infrastructure.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Data.Sqlite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Sqlite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.Options.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Identity.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.CommunicationUtilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.CoreUtilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.CrossPlatEngine.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.PlatformAbstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.Utilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/SQLitePCLRaw.batteries_v2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/SQLitePCLRaw.core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/SQLitePCLRaw.provider.e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.ClientModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.Memory.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.Security.Permissions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-arm/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-arm64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-armel/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-mips64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-musl-arm/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-ppc64le/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-s390x/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-x64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/linux-x86/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/osx-arm64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/osx-x64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-arm/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-arm64/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-x64/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/testhost.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/xunit.abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/xunit.assert.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/xunit.core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/xunit.execution.dotnet.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/xunit.runner.reporters.netcoreapp10.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/xunit.runner.utility.netcoreapp10.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/xunit.runner.visualstudio.testadapter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.I.CDED71D7.Up2Date" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/JamWav.Infrastructure.Tests.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/ref/JamWav.Infrastructure.Tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net9.0/refint/JamWav.Infrastructure.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Azure.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Azure.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Azure.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Azure.Identity.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/System.ClientModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/System.Formats.Asn1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/ref/JamWav.Infrastructure.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/ref/JamWav.Infrastructure.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/refint/JamWav.Infrastructure.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/refint/JamWav.Infrastructure.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/JamWav.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/JamWav.Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -268,15 +109,10 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Infrastructure.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net7.0/JamWav.Infrastructure.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net7.0/JamWav.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net7.0/JamWav.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net7.0/JamWav.Infrastructure.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net7.0/JamWav.Infrastructure.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net7.0/JamWav.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.dll" afterDir="false" />
@@ -284,550 +120,80 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/ref/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/ref/JamWav.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/refint/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/refint/JamWav.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/JamWav.Web.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/JamWav.Web.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_JamWav.Web.Tests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Azure.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Azure.Identity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/CoverletSourceRootsMapping_JamWav.Web.Tests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Application.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Application.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Application.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Domain.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Domain.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Domain.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Infrastructure.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Infrastructure.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Infrastructure.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.Tests.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.Tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.Tests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.Tests.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/JamWav.Web.staticwebassets.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.AspNetCore.Mvc.Testing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.AspNetCore.TestHost.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Data.Sqlite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Sqlite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.CommandLine.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.UserSecrets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Diagnostics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Hosting.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Hosting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.Debug.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.EventLog.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.EventSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Options.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Identity.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.CommunicationUtilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.CoreUtilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.CrossPlatEngine.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.PlatformAbstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.Utilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/MvcTestingAppManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/SQLitePCLRaw.batteries_v2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/SQLitePCLRaw.core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/SQLitePCLRaw.provider.e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.ClientModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Diagnostics.EventLog.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Memory.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Security.Permissions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Antiforgery.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authentication.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authentication.BearerToken.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authentication.Cookies.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authentication.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authentication.OAuth.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authentication.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authorization.Policy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Authorization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Components.Authorization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Components.Endpoints.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Components.Forms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Components.Server.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Components.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Components.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.CookiePolicy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Cors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.DataProtection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Diagnostics.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Diagnostics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.HostFiltering.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Hosting.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Hosting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Html.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Http.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Http.Connections.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Http.Connections.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Http.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Http.Features.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Http.Results.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.HttpLogging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.HttpOverrides.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.HttpsPolicy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Identity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Localization.Routing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Localization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Metadata.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.ApiExplorer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.Cors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.DataAnnotations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.Formatters.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.Localization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.Razor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.RazorPages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.TagHelpers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.ViewFeatures.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Mvc.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.OutputCaching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.RateLimiting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Razor.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Razor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.RequestDecompression.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.ResponseCaching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.ResponseCompression.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Rewrite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Routing.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Routing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.HttpSys.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.IIS.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.IISIntegration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.Kestrel.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.Kestrel.Transport.NamedPipes.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Server.Kestrel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.Session.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.SignalR.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.SignalR.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.SignalR.Protocols.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.SignalR.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.StaticAssets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.StaticFiles.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.WebSockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.WebUtilities.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.AspNetCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.CommandLine.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.FileExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Ini.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.KeyPerFile.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.UserSecrets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.Xml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Diagnostics.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Diagnostics.HealthChecks.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Diagnostics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Features.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Composite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Embedded.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.FileProviders.Physical.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.FileSystemGlobbing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Hosting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Identity.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Identity.Stores.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Localization.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Localization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.Debug.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.EventLog.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.EventSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.TraceSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.ObjectPool.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Options.ConfigurationExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Options.DataAnnotations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Options.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Extensions.WebEncoders.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.JSInterop.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Net.Http.Headers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.VisualBasic.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.VisualBasic.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Win32.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/Microsoft.Win32.Registry.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.AppContext.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Collections.Concurrent.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Collections.Immutable.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Collections.NonGeneric.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Collections.Specialized.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Collections.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ComponentModel.Annotations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ComponentModel.DataAnnotations.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ComponentModel.EventBasedAsync.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ComponentModel.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ComponentModel.TypeConverter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ComponentModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Configuration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Console.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Data.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Data.DataSetExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.Contracts.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.Debug.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.EventLog.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.FileVersionInfo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.Process.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.StackTrace.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.TextWriterTraceListener.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.Tools.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.TraceSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Diagnostics.Tracing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Drawing.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Drawing.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Dynamic.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Formats.Asn1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Formats.Tar.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Globalization.Calendars.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Globalization.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Globalization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.Compression.Brotli.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.Compression.FileSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.Compression.ZipFile.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.Compression.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.FileSystem.AccessControl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.FileSystem.DriveInfo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.FileSystem.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.FileSystem.Watcher.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.FileSystem.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.IsolatedStorage.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.MemoryMappedFiles.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.Pipelines.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.Pipes.AccessControl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.Pipes.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.UnmanagedMemoryStream.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.IO.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Linq.Expressions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Linq.Parallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Linq.Queryable.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Linq.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Http.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Http.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.HttpListener.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Mail.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.NameResolution.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.NetworkInformation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Ping.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Quic.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Requests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Security.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.ServicePoint.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.Sockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.WebClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.WebHeaderCollection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.WebProxy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.WebSockets.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.WebSockets.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Net.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Numerics.Vectors.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Numerics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ObjectModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.DispatchProxy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.Emit.ILGeneration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.Emit.Lightweight.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.Emit.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.Metadata.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.TypeExtensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Reflection.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Resources.Reader.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Resources.ResourceManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Resources.Writer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.CompilerServices.VisualC.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Handles.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.JavaScript.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.RuntimeInformation.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.InteropServices.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Intrinsics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Loader.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Numerics.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Formatters.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Serialization.Xml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.Serialization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.AccessControl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Claims.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.Algorithms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.Cng.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.Csp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.Encoding.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.OpenSsl.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.Primitives.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.X509Certificates.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.Xml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Cryptography.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Principal.Windows.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.Principal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.SecureString.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Security.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ServiceModel.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ServiceProcess.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Text.Encoding.CodePages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Text.Encoding.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Text.Encoding.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Text.Encodings.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Text.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Text.RegularExpressions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Channels.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Overlapped.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.RateLimiting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Tasks.Dataflow.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Tasks.Parallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Tasks.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Thread.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.ThreadPool.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.Timer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Threading.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Transactions.Local.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Transactions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.ValueTuple.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Web.HttpUtility.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Windows.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.Linq.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.ReaderWriter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.Serialization.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.XDocument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.XPath.XDocument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.XPath.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.XmlDocument.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.XmlSerializer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.Xml.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/System.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/WindowsBase.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/mscorlib.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/refs/netstandard.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-arm/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-arm64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-armel/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-mips64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-musl-arm/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-ppc64le/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-s390x/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-x64/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/linux-x86/native/libe_sqlite3.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/osx-arm64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/osx-x64/native/libe_sqlite3.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-arm/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-arm64/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-x64/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/testhost.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/xunit.abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/xunit.assert.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/xunit.core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/xunit.execution.dotnet.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/xunit.runner.reporters.netcoreapp10.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/xunit.runner.utility.netcoreapp10.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/xunit.runner.visualstudio.testadapter.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net9.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.W.ACDE93A2.Up2Date" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/JamWav.Web.Tests.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/MvcTestingAppManifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/ref/JamWav.Web.Tests.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net9.0/refint/JamWav.Web.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/Controllers/UsersControllerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/Controllers/UsersControllerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/Utils/CustomWebAppApplicationFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Azure.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Azure.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Azure.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Azure.Identity.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/System.ClientModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/System.Formats.Asn1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/ref/JamWav.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/ref/JamWav.Web.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/refint/JamWav.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/refint/JamWav.Web.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/JamWav.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/JamWav.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Azure.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Azure.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Azure.Identity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Azure.Identity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -837,16 +203,117 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Web.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Web.staticwebassets.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net7.0/JamWav.Web.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net7.0/JamWav.Web.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net7.0/JamWav.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net7.0/JamWav.Web.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net7.0/JamWav.Web.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net7.0/JamWav.Web.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Build.Locator.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Identity.Client.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Mono.TextTemplating.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.ClientModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.CodeDom.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.CodeDom.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.AttributedModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.Convention.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.Convention.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.Hosting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.TypedParts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Formats.Asn1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.IO.Pipelines.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -855,11 +322,12 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/ref/JamWav.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/ref/JamWav.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/refint/JamWav.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/refint/JamWav.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/staticwebassets.build.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/staticwebassets/msbuild.build.JamWav.Web.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/staticwebassets/msbuild.build.JamWav.Web.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Infrastructure.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -981,7 +449,7 @@
       <workItem from="1744856456305" duration="3014000" />
       <workItem from="1744859516778" duration="82000" />
       <workItem from="1744859651909" duration="17926000" />
-      <workItem from="1745460306740" duration="7320000" />
+      <workItem from="1745460306740" duration="11335000" />
     </task>
     <servers />
   </component>
