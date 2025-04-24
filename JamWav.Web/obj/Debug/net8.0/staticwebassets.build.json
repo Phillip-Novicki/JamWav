@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "knQLekquu3M/8H6vLKtPBjy/Eff5dmJSqxZQXqL47qY=",
+  "Hash": "yZgCZy4oyZn6JiOj3a65QeJkCWINDsbD0cbXl14ZDn8=",
   "Source": "JamWav.Web",
   "BasePath": "_content/JamWav.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

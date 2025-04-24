@@ -139,14 +139,14 @@
           "/Users/pnovicki/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/JamWav.Domain.csproj": {
                 "projectPath": "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/JamWav.Domain.csproj"
@@ -170,8 +170,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",

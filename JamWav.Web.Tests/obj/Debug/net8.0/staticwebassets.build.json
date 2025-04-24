@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "caydqNARJSrE0nEFAcLgXWz19Dxo3r04t798k2bxLPA=",
+  "Source": "JamWav.Web.Tests",
+  "BasePath": "_content/JamWav.Web.Tests",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web/JamWav.Web.csproj",
+      "Version": 2,
+      "Source": "JamWav.Web",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

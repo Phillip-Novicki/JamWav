@@ -23,7 +23,15 @@ public class UsersController : ControllerBase
         var users = await _userRepository.GetAllAsync();
         return Ok(users);
     }
-
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetUserById(Guid id)
+    {
+        var user = await _userRepository.GetByIdAsync(id);
+        if (user is null)
+            return NotFound();
+        return Ok(user);
+    }
+    
     [HttpPost]
     public async Task<IActionResult> CreateUser(CreateUserRequest request)
     {

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/JamWav.Web.Tests.props" />
+</Project>
