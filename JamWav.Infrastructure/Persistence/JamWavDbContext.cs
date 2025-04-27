@@ -11,6 +11,7 @@ public class JamWavDbContext : DbContext
     }
     
     public DbSet<User> Users { get; set; }
+    public DbSet<Band> Bands { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -24,6 +25,16 @@ public class JamWavDbContext : DbContext
             entity.Property(u => u.Email).IsRequired();
             entity.Property(u => u.DisplayName).IsRequired();
             entity.Property(u => u.CreatedAt).IsRequired();
+        });
+
+        modelBuilder.Entity<Band>(entity =>
+        {
+            entity.HasKey(b => b.Id);
+            entity.HasIndex(b => b.Name).IsUnique();
+            entity.Property(b => b.Name).IsRequired();
+            entity.Property(b => b.Genre).IsRequired();
+            entity.Property(b => b.Origin).IsRequired();
+            entity.Property(b => b.CreatedAt).IsRequired();
         });
     }
 }

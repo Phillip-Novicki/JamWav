@@ -5,7 +5,6 @@ public class User : BaseEntity
     public string Username { get; private set; } = string.Empty;
     public string Email { get; private set; } = string.Empty;
     public string DisplayName { get; private set; } = string.Empty;
-    public DateTime CreatedAt { get; private set; }
 
     // EF Core parameterless constructor
     private User() { }

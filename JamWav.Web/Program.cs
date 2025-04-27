@@ -14,6 +14,7 @@ builder.Services.AddDbContext<JamWavDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("JamWavDb")));
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IBandRepository, BandRepository>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
