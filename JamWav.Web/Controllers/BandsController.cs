@@ -1,5 +1,4 @@
 using JamWav.Application.Interfaces;
-using JamWav.Domain.Entities;
 using JamWav.Web.Mapping;
 using JamWav.Web.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -8,11 +7,11 @@ namespace JamWav.Web.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class BandController : ControllerBase
+public class BandsController : ControllerBase
 {
     private readonly IBandRepository _bandRepository;
 
-    public BandController(IBandRepository bandRepository)
+    public BandsController(IBandRepository bandRepository)
     {
         _bandRepository = bandRepository;
     }
@@ -21,7 +20,7 @@ public class BandController : ControllerBase
     public async Task<IActionResult> GetAllBands()
     {
         var bands = await _bandRepository.GetAllAsync();
-        var responses = bands.Select(b => new BandResponse());
+        var responses = bands.Select(b => b.ToResponse());
         return Ok(responses);
     }
 
@@ -41,11 +40,11 @@ public class BandController : ControllerBase
     public async Task<IActionResult> CreateBand(CreateBandRequest request)
     {
         if (await _bandRepository.NameExistsAsync(request.Name))
-            return BadRequest($"0Band `{request.Name}` already exists");
+            return BadRequest($"Band `{request.Name}` already exists");
         
         var band = request.ToEntity();
         await _bandRepository.AddAsync(band);
         
-        return CreatedAtAction(nameof(GetBandById), new { id = band.Id }, band);
+        return CreatedAtAction(nameof(GetBandById), new { id = band.Id }, band.ToResponse());
     }
 }
