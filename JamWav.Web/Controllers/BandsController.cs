@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace JamWav.Web.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class BandsController : ControllerBase
 {
     private readonly IBandRepository _bandRepository;
