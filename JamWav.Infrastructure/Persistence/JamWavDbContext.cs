@@ -1,6 +1,5 @@
 using JamWav.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-
 namespace JamWav.Infrastructure.Persistence;
 
 public class JamWavDbContext : DbContext
@@ -12,6 +11,10 @@ public class JamWavDbContext : DbContext
     
     public DbSet<User> Users { get; set; }
     public DbSet<Band> Bands { get; set; }
+    public DbSet<Event> Events { get; set; }
+    public DbSet<Friend> Friends { get; set; }
+   
+    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -35,6 +38,23 @@ public class JamWavDbContext : DbContext
             entity.Property(b => b.Genre).IsRequired();
             entity.Property(b => b.Origin).IsRequired();
             entity.Property(b => b.CreatedAt).IsRequired();
+        });
+
+        modelBuilder.Entity<Event>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.Name).IsRequired();
+            entity.Property(e => e.StartDate).IsRequired();
+            entity.Property(e => e.Location).IsRequired();
+            entity.Property(e => e.CreatedAt).IsRequired();
+        });
+        
+        modelBuilder.Entity<Friend>(entity =>
+        {
+            entity.HasKey(f => f.Id);
+            entity.Property(f => f.UserId).IsRequired();
+            entity.Property(f => f.FriendUserId).IsRequired();
+            entity.Property(f => f.CreatedAt).IsRequired();
         });
     }
 }
