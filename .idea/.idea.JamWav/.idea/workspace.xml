@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfbb8667-5ba8-4ab6-a0d6-532ab4cba1c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.JamWav/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JamWav/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -25,9 +24,6 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/JamWav.Application.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/ref/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/ref/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/refint/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/Debug/net8.0/refint/JamWav.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/JamWav.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/JamWav.Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -40,24 +36,16 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/JamWav.Domain.Tests.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/ref/JamWav.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/ref/JamWav.Domain.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/refint/JamWav.Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/Debug/net8.0/refint/JamWav.Domain.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/JamWav.Domain.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/JamWav.Domain.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain.Tests/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/Entities/BaseEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Domain/Entities/Friend.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/Entities/Friend.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/ref/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/ref/JamWav.Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/refint/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/Debug/net8.0/refint/JamWav.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/JamWav.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/JamWav.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -74,11 +62,7 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/ref/JamWav.Infrastructure.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/ref/JamWav.Infrastructure.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/refint/JamWav.Infrastructure.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/Debug/net8.0/refint/JamWav.Infrastructure.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/JamWav.Infrastructure.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure.Tests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/Migrations/JamWavDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/Migrations/JamWavDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/Persistence/JamWavDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/Persistence/JamWavDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -94,9 +78,6 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/JamWav.Infrastructure.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/ref/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/ref/JamWav.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/refint/JamWav.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/Debug/net8.0/refint/JamWav.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/JamWav.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -110,14 +91,14 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/ref/JamWav.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/ref/JamWav.Web.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/refint/JamWav.Web.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/Debug/net8.0/refint/JamWav.Web.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/JamWav.Web.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/Models/BandResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/Models/BandResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/bin/Debug/net8.0/JamWav.Domain.dll" afterDir="false" />
@@ -129,14 +110,12 @@
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/JamWav.Web.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/ref/JamWav.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/ref/JamWav.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/refint/JamWav.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/Debug/net8.0/refint/JamWav.Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/JamWav.Web.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JamWav.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/JamWav.Web/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,6 +237,7 @@
       <workItem from="1744859651909" duration="17926000" />
       <workItem from="1745460306740" duration="12196000" />
       <workItem from="1745638995243" duration="2135000" />
+      <workItem from="1745673420831" duration="37712000" />
     </task>
     <servers />
   </component>

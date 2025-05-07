@@ -15,6 +15,7 @@ builder.Services.AddDbContext<JamWavDbContext>(options =>
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IBandRepository, BandRepository>();
+builder.Services.AddScoped<IFriendRepository, FriendRepository>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

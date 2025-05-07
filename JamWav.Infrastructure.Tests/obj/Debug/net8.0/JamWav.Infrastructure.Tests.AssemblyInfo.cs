@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JamWav.Infrastructure.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d493bed8162ca1097edd2f9044208a41ec1e3b98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+797c8ffa48df2848800a9bfe5c7c234e6047f58a")]
 [assembly: System.Reflection.AssemblyProductAttribute("JamWav.Infrastructure.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JamWav.Infrastructure.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

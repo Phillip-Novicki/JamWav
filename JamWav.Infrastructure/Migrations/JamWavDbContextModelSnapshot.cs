@@ -85,6 +85,10 @@ namespace JamWav.Infrastructure.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("FriendName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<Guid>("FriendUserId")
                         .HasColumnType("uniqueidentifier");
 
