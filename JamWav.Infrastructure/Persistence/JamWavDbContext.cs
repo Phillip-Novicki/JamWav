@@ -43,10 +43,19 @@ public class JamWavDbContext : DbContext
         modelBuilder.Entity<Event>(entity =>
         {
             entity.HasKey(e => e.Id);
-            entity.Property(e => e.Name).IsRequired();
-            entity.Property(e => e.StartDate).IsRequired();
-            entity.Property(e => e.Location).IsRequired();
-            entity.Property(e => e.CreatedAt).IsRequired();
+            entity.Property(e => e.Title)
+                .IsRequired()
+                .HasMaxLength(200);      // optional length constraint
+
+            entity.Property(e => e.Date)
+                .IsRequired();
+
+            entity.Property(e => e.Venue)
+                .IsRequired()
+                .HasMaxLength(200);      // optional
+
+            entity.Property(e => e.CreatedAt)
+                .IsRequired();
         });
         
         modelBuilder.Entity<Friend>(entity =>

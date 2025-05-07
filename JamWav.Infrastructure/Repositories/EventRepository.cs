@@ -30,8 +30,8 @@ public class EventRepository : IEventRepository
         await _context.SaveChangesAsync();
     }
 
-    public async Task<bool> EventNameExists(string name)
+    public async Task<bool> EventNameExists(string title)
     {
-        return await _context.Events.AnyAsync(e => e.Name == name);
+        return await _context.Events.AnyAsync(e => e.Title == title);
     }
 }

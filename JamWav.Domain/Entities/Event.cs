@@ -1,28 +1,27 @@
-using System;
-
 namespace JamWav.Domain.Entities;
 
 public class Event : BaseEntity
 {
-    public string Name { get; private set; }
-    public DateTime StartDate { get; private set; }
-    public string Location { get; private set; }
-    
-    
-    private Event() { } // For EF Core
+    public string Title      { get; private set; }
+    public DateTime Date     { get; private set; }
+    public string Venue      { get; private set; }
+    public Guid BandId       { get; private set; }
 
-    public Event(string name, DateTime startDate, string location)
+    private Event() { } 
+
+    public Event(string title, DateTime date, string venue, Guid bandId)
     {
-        Name = name;
-        StartDate = startDate;
-        Location = location;
+        Title     = title;
+        Date      = date;
+        Venue     = venue;
+        BandId    = bandId;
         CreatedAt = DateTime.UtcNow;
     }
 
-    public void UpdateDetails(string name, DateTime startDate, string location)
+    public void UpdateDetails(string title, DateTime date, string venue)
     {
-        Name = name;
-        StartDate = startDate;
-        Location = location;
+        Title = title;
+        Date  = date;
+        Venue = venue;
     }
 }
