@@ -45,14 +45,17 @@ public class JamWavDbContext : DbContext
             entity.HasKey(e => e.Id);
             entity.Property(e => e.Title)
                 .IsRequired()
-                .HasMaxLength(200);      // optional length constraint
+                .HasMaxLength(200);     
 
             entity.Property(e => e.Date)
                 .IsRequired();
 
             entity.Property(e => e.Venue)
                 .IsRequired()
-                .HasMaxLength(200);      // optional
+                .HasMaxLength(200);
+            
+            entity.Property(e => e.BandId)
+                .IsRequired();
 
             entity.Property(e => e.CreatedAt)
                 .IsRequired();

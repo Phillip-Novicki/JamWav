@@ -19,7 +19,7 @@ public class FriendRepository : IFriendRepository
         return await _context.Friends.ToListAsync();
     }
 
-    public async Task<Friend> GetByIdAsync(Guid id)
+    public async Task<Friend?> GetByIdAsync(Guid id)
     {
         return await _context.Friends.FindAsync(id);
     }
@@ -29,5 +29,7 @@ public class FriendRepository : IFriendRepository
         _context.Friends.Add(friend);
         await _context.SaveChangesAsync();
     }
+    public async Task<bool> UsernameExistsAsync(string username) =>
+        await _context.Friends.AnyAsync(f => f.FriendName == username);
     
 }

@@ -2,9 +2,9 @@ namespace JamWav.Domain.Entities;
 
 public class Event : BaseEntity
 {
-    public string Title      { get; private set; }
+    public string Title      { get; private set; } = string.Empty;
     public DateTime Date     { get; private set; }
-    public string Venue      { get; private set; }
+    public string Venue      { get; private set; } = string.Empty;
     public Guid BandId       { get; private set; }
 
     private Event() { } 

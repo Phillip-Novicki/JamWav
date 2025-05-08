@@ -11,6 +11,7 @@ namespace JamWav.Web.Mapping
             Title    = e.Title,
             Date      = e.Date,
             Venue    = e.Venue,
+            BandId = e.BandId,
             CreatedAt = e.CreatedAt
         };
 

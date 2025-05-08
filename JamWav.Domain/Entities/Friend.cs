@@ -5,9 +5,7 @@ public class Friend : BaseEntity
     public Guid UserId { get; private set; }
     public Guid FriendUserId { get; private set; }
     
-    public string FriendName { get; private set; }
-    
-    public DateTime CreatedAt { get; private set; } = DateTime.UtcNow;
+    public string FriendName { get; private set; } = string.Empty;
 
     private Friend() { } // For EF Core
 

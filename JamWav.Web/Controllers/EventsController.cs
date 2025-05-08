@@ -9,24 +9,24 @@ namespace JamWav.Web.Controllers;
 [Route("api/[controller]")]
 public class EventsController : ControllerBase
 {
-    private readonly IEventRepository _repo;
+    private readonly IEventRepository _repository;
 
-    public EventsController(IEventRepository repo)
+    public EventsController(IEventRepository repository)
     {
-        _repo = repo;
+        _repository = repository;
     }
 
     [HttpGet]
     public async Task<IActionResult> GetAllEvents()
     {
-        var list = await _repo.GetAllAsync();
+        var list = await _repository.GetAllAsync();
         return Ok(list.Select(e => e.ToResponse()));
     }
 
     [HttpGet("{id:guid}")]
     public async Task<IActionResult> GetEventById(Guid id)
     {
-        var e = await _repo.GetByIdAsync(id);
+        var e = await _repository.GetByIdAsync(id);
         if (e is null) return NotFound();
         return Ok(e.ToResponse());
     }
@@ -35,7 +35,7 @@ public class EventsController : ControllerBase
     public async Task<IActionResult> CreateEvent(CreateEventRequest request)
     {
         var e = request.ToEntity();
-        await _repo.AddAsync(e);
+        await _repository.AddAsync(e);
         return CreatedAtAction(nameof(GetEventById), new { id = e.Id }, e.ToResponse());
     }
 }
