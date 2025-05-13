@@ -1,11 +1,8 @@
-#nullable enable
-
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using JamWav.Web.Controllers;
 using JamWav.Web.Models;
-using JamWav.Web.Mapping;
 using JamWav.Application.Interfaces;
 using JamWav.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -20,9 +17,21 @@ namespace JamWav.Web.Tests.Unit
         public async Task GetAllUsers_Returns_AllUsers()
         {
             // Arrange
-            var user1 = new User("u1", "u1@example.com", "U1");
-            var user2 = new User("u2", "u2@example.com", "U2");
-            var list = new List<User> { user1, user2 };
+            var user1 = new ApplicationUser
+            {
+                Id = Guid.NewGuid(),
+                UserName = "u1",
+                Email = "u1@example.com",
+                DisplayName = "U1"
+            };
+            var user2 = new ApplicationUser
+            {
+                Id = Guid.NewGuid(),
+                UserName = "u2",
+                Email = "u2@example.com",
+                DisplayName = "U2"
+            };
+            var list = new List<ApplicationUser> { user1, user2 };
 
             var repo = new Mock<IUserRepository>();
             repo.Setup(r => r.GetAllAsync())
@@ -44,16 +53,23 @@ namespace JamWav.Web.Tests.Unit
         public async Task GetUserById_ExistingId_Returns_User()
         {
             // Arrange
-            var user = new User("bob", "bob@example.com", "Bob");
+            var id = Guid.NewGuid();
+            var user = new ApplicationUser
+            {
+                Id = id,
+                UserName = "bob",
+                Email = "bob@example.com",
+                DisplayName = "Bob"
+            };
 
             var repo = new Mock<IUserRepository>();
-            repo.Setup(r => r.GetByIdAsync(user.Id))
-                .ReturnsAsync(user);
+            repo.Setup(r => r.GetByIdAsync(id))
+                .ReturnsAsync((ApplicationUser?)user);
 
             var ctrl = new UsersController(repo.Object);
 
             // Act
-            var result = await ctrl.GetUserById(user.Id);
+            var result = await ctrl.GetUserById(id);
 
             // Assert
             var ok = Assert.IsType<OkObjectResult>(result);
@@ -67,7 +83,7 @@ namespace JamWav.Web.Tests.Unit
             // Arrange
             var repo = new Mock<IUserRepository>();
             repo.Setup(r => r.GetByIdAsync(It.IsAny<Guid>()))
-                .ReturnsAsync((User?)null);
+                .ReturnsAsync((ApplicationUser?)null);
 
             var ctrl = new UsersController(repo.Object);
 
@@ -85,7 +101,7 @@ namespace JamWav.Web.Tests.Unit
             var repo = new Mock<IUserRepository>();
             repo.Setup(r => r.UsernameExistsAsync(It.IsAny<string>()))
                 .ReturnsAsync(false);
-            repo.Setup(r => r.AddAsync(It.IsAny<User>()))
+            repo.Setup(r => r.AddAsync(It.IsAny<ApplicationUser>()))
                 .Returns(Task.CompletedTask);
 
             var ctrl = new UsersController(repo.Object);
@@ -101,9 +117,9 @@ namespace JamWav.Web.Tests.Unit
 
             // Assert
             var created = Assert.IsType<CreatedAtActionResult>(result);
-            Assert.Equal(nameof(UsersController.GetAllUsers), created.ActionName);
+            Assert.Equal(nameof(UsersController.GetUserById), created.ActionName);
 
-            var returned = Assert.IsType<UserResponse>(created.Value);
+            var returned = Assert.IsType<UserResponse>(created.Value!);
             Assert.Equal("alice", returned.Username);
         }
 

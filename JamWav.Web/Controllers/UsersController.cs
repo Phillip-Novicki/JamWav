@@ -45,6 +45,6 @@ public class UsersController : ControllerBase
 
         await _userRepository.AddAsync(user);
 
-        return CreatedAtAction(nameof(GetAllUsers), new { id = user.Id }, user.ToResponse());
+        return CreatedAtAction(nameof(GetUserById), new { id = user.Id }, user.ToResponse());
     }
 }

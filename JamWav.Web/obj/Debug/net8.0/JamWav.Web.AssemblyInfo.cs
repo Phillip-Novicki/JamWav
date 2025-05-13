@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JamWav.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94ea1aee52c317e0bfb410c384d6cee7d4c38cfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09a6e7579c4968a7bb263140a956bb49e8dae5b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("JamWav.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JamWav.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

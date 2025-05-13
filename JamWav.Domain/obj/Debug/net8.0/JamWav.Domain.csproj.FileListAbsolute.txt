@@ -1,6 +1,7 @@
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.deps.json
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.dll
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/bin/Debug/net8.0/JamWav.Domain.pdb
+/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.csproj.AssemblyReference.cache
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfoInputs.cache
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Domain/obj/Debug/net8.0/JamWav.Domain.AssemblyInfo.cs

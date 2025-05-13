@@ -1,23 +1,29 @@
-using Azure.Core;
-using JamWav.Domain.Entities;
-using JamWav.Web.Models;
+using JamWav.Domain.Entities;      // brings in ApplicationUser
+using JamWav.Web.Models;           // your DTOs
 
-namespace JamWav.Web.Mapping;
-
-public static class UserMapper
+namespace JamWav.Web.Mapping
 {
-    public static UserResponse ToResponse(this User user) => new UserResponse()
+    public static class UserMapper
     {
-        Id = user.Id,
-        Username = user.Username,
-        Email = user.Email,
-        DisplayName = user.DisplayName,
-        CreatedAt = user.CreatedAt,
-    };
+        // DOMAIN → DTO
+        public static UserResponse ToResponse(this ApplicationUser u)
+            => new UserResponse
+            {
+                Id          = u.Id,
+                Username    = u.UserName!,
+                Email       = u.Email!,
+                DisplayName = u.DisplayName,
+                CreatedAt   = u.CreatedAt
+            };
 
-    public static User ToEntity(this CreateUserRequest request) => new User(
-        request.Username,
-        request.Email,
-        request.DisplayName
-    );
+        // DTO → DOMAIN 
+        public static ApplicationUser ToEntity(this CreateUserRequest r)
+            => new ApplicationUser
+            {
+                UserName    = r.Username,
+                Email       = r.Email,
+                DisplayName = r.DisplayName,
+                CreatedAt   = DateTime.UtcNow
+            };
+    }
 }

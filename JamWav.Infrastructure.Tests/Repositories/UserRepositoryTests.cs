@@ -1,77 +1,87 @@
-using System;
-using System.Threading.Tasks;
 using JamWav.Domain.Entities;
 using JamWav.Infrastructure.Repositories;
 using JamWav.Infrastructure.Tests.Utils;
-using Xunit;
 
-namespace JamWav.Infrastructure.Tests.Repositories;
-
-public class UserRepositoryTests
+namespace JamWav.Infrastructure.Tests.Repositories
 {
-    [Fact]
-    public async Task AddAsync_ShouldAddUser()
+    public class UserRepositoryTests
     {
-        // Arrange
-        using var context = TestDbContextFactory.CreateContext();
-        var repo = new UserRepository(context);
+        [Fact]
+        public async Task AddAsync_ShouldAddUser()
+        {
+            // Arrange
+            await using var context = TestDbContextFactory.CreateContext();
+            var repo = new UserRepository(context);
 
-        var user = new User("testuser", "test@example.com", "Test User");
-            
-        // Act
-        await repo.AddAsync(user);
-        var result = await repo.GetByIdAsync(user.Id);
-        
-        // Assert
-        Assert.NotNull(result);
-        Assert.Equal("testuser", result?.Username);
-        Assert.Equal("test@example.com", result?.Email);
-    }
+            var user = new ApplicationUser
+            {
+                Id = Guid.NewGuid(),
+                UserName = "testuser",
+                Email = "test@example.com",
+                DisplayName = "Test User",
+                CreatedAt = DateTime.UtcNow
+            };
 
-    [Fact]
-    public async Task GetByIdAsync_ShouldReturnNull_WhenUserDoesNotExist()
-    {
-        // Arrange
-        using var context = TestDbContextFactory.CreateContext();
-        var repo = new UserRepository(context);
-        
-        // Act
-        var result = await repo.GetByIdAsync(Guid.NewGuid());
-        
-        // Assert
-        Assert.Null(result);
-        
-    }
+            // Act
+            await repo.AddAsync(user);
+            var result = await repo.GetByIdAsync(user.Id);
 
-    [Fact]
-    public async Task UsernameExistsAsync_ShouldReturnTrue_WhenUserExists()
-    {
-        // Arrange
-        using var context = TestDbContextFactory.CreateContext();
-        var repo = new UserRepository(context);
-        
-        // Act
-        var user = new User("uniqueuser", "unique@example.com", "Unique User");
-        await repo.AddAsync(user);
-        
-        var exists = await repo.UsernameExistsAsync("uniqueuser");
-        
-        // Assert
-        Assert.True(exists);
-    }
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("testuser", result?.UserName);
+            Assert.Equal("test@example.com", result?.Email);
+        }
 
-    [Fact]
-    public async Task UsernameExistsAsync_ShouldReturnFalse_WhenUserDoesNotExist()
-    {
-        // Arrange
-        using var context = TestDbContextFactory.CreateContext();
-        var repo = new UserRepository(context);
-        
-        // Act
-        var exists = await repo.UsernameExistsAsync("doesnotexist");
-        
-        //Assert
-        Assert.False(exists);
+        [Fact]
+        public async Task GetByIdAsync_ShouldReturnNull_WhenUserDoesNotExist()
+        {
+            // Arrange
+            using var context = TestDbContextFactory.CreateContext();
+            var repo = new UserRepository(context);
+
+            // Act
+            var result = await repo.GetByIdAsync(Guid.NewGuid());
+
+            // Assert
+            Assert.Null(result);
+        }
+
+        [Fact]
+        public async Task UsernameExistsAsync_ShouldReturnTrue_WhenUserExists()
+        {
+            // Arrange
+            await using var context = TestDbContextFactory.CreateContext();
+            var repo = new UserRepository(context);
+
+            var user = new ApplicationUser
+            {
+                Id = Guid.NewGuid(),
+                UserName = "uniqueuser",
+                Email = "unique@example.com",
+                DisplayName = "Unique User",
+                CreatedAt = DateTime.UtcNow
+            };
+            await repo.AddAsync(user);
+
+            // Act
+            var exists = await repo.UsernameExistsAsync("uniqueuser");
+
+            // Assert
+            Assert.True(exists);
+        }
+
+        [Fact]
+        public async Task UsernameExistsAsync_ShouldReturnFalse_WhenUserDoesNotExist()
+        {
+            // Arrange
+            await using var context = TestDbContextFactory.CreateContext();
+            var repo = new UserRepository(context);
+
+            // Act
+            var exists = await repo.UsernameExistsAsync("doesnotexist");
+
+            // Assert
+            Assert.False(exists);
+        }
     }
-    
 }
