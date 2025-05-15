@@ -3,10 +3,10 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 using JamWav.Web.Models;
-using JamWav.Web.Tests.Utils;
+using JamWav.Web.Tests.Integration.Utils;
 using Xunit;
 
-namespace JamWav.Web.Tests.Controllers
+namespace JamWav.Web.Tests.Integration.Controllers
 {
     public class FriendsControllerTests : IClassFixture<CustomWebApplicationFactory<Program>>
     {

@@ -504,3 +504,4 @@
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.pdb
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web.Tests/obj/Debug/net8.0/JamWav.Web.Tests.genruntimeconfig.cache
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web.Tests/obj/Debug/net8.0/ref/JamWav.Web.Tests.dll
+/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web.Tests/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

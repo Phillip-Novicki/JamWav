@@ -1,5 +1,5 @@
 using JamWav.Domain.Entities;
-using JamWav.Infrastructure.Repositories;
+using JamWav.Infrastructure.Persistence.Repositories;
 using JamWav.Infrastructure.Tests.Utils;
 
 namespace JamWav.Infrastructure.Tests.Repositories

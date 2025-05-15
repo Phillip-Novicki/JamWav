@@ -173,3 +173,4 @@
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web/obj/Debug/net8.0/JamWav.Web.pdb
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web/obj/Debug/net8.0/JamWav.Web.genruntimeconfig.cache
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web/obj/Debug/net8.0/ref/JamWav.Web.dll
+/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

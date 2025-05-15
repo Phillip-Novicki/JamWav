@@ -7,7 +7,7 @@ using JamWav.Domain.Entities;          // ApplicationUser lives here
 using JamWav.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace JamWav.Infrastructure.Repositories
+namespace JamWav.Infrastructure.Persistence.Repositories
 {
     public class UserRepository : IUserRepository
     {

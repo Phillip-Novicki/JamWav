@@ -3,7 +3,7 @@ using JamWav.Domain.Entities;
 using JamWav.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace JamWav.Infrastructure.Repositories;
+namespace JamWav.Infrastructure.Persistence.Repositories;
 
 public class FriendRepository : IFriendRepository
 {

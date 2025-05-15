@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace JamWav.Web.Tests.Unit
+namespace JamWav.Web.Tests.Unit.Controllers
 {
     public class UsersControllerUnitTests
     {
