@@ -19,4 +19,11 @@ public static class BandMapper
         request.Genre,
         request.Origin
     );
+
+    public static void UpdateFrom(this Band entity, UpdateBandRequest request)
+    {
+        entity.Name = request.Name;
+        entity.Genre = request.Genre;
+        entity.Origin = request.Origin;
+    }
 }

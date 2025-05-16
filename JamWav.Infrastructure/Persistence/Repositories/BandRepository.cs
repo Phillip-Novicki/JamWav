@@ -35,4 +35,22 @@ public class BandRepository : IBandRepository
     {
         return await _context.Bands.AnyAsync(b => b.Name == name);
     }
+
+    public async Task UpdateAsync(Band band)
+    {
+        _context.Bands.Update(band);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task<bool> DeleteAsync(Guid id)
+    {
+        var band = await _context.Bands.FindAsync((id));
+        if (band == null)
+        {
+            return false;
+        }
+        _context.Bands.Remove(band);
+        await _context.SaveChangesAsync();
+        return true;
+    }
 }

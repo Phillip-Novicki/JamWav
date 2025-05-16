@@ -2,9 +2,9 @@ namespace JamWav.Domain.Entities;
 
 public class Band : BaseEntity
 {
-    public string Name { get; private set; } = string.Empty;
-    public string Genre { get; private set; } = string.Empty;
-    public string Origin { get; private set;} = string.Empty;
+    public string Name { get; set; } = string.Empty;
+    public string Genre { get; set; } = string.Empty;
+    public string Origin { get; set;} = string.Empty;
     
     // EF Core parameterless constructor
     private Band() {}

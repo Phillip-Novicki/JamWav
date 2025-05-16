@@ -13,8 +13,8 @@ namespace JamWav.Web.Tests.Integration.Controllers
 {
     public class BandsControllerTests : IClassFixture<CustomWebApplicationFactory<Program>>
     {
-        private readonly HttpClient          _client;
-        private readonly ITestOutputHelper   _output;
+        private readonly HttpClient        _client;
+        private readonly ITestOutputHelper _output;
 
         public BandsControllerTests(CustomWebApplicationFactory<Program> factory,
                                     ITestOutputHelper output)
@@ -26,13 +26,9 @@ namespace JamWav.Web.Tests.Integration.Controllers
         [Fact]
         public async Task CreateBand_ShouldCreateBand()
         {
-            // Arrange
             var request = new CreateBandRequest { Name = "Test Band" };
-
-            // Act
             var response = await _client.PostAsJsonAsync("/api/bands", request);
 
-            // Assert
             Assert.Equal(HttpStatusCode.Created, response.StatusCode);
             var created = await response.Content.ReadFromJsonAsync<BandResponse>();
             Assert.NotNull(created);
@@ -43,16 +39,12 @@ namespace JamWav.Web.Tests.Integration.Controllers
         [Fact]
         public async Task GetAllBands_ShouldReturnListIncludingCreated()
         {
-            // Arrange: create a band
             var request = new CreateBandRequest { Name = "List Band" };
             var post    = await _client.PostAsJsonAsync("/api/bands", request);
             post.EnsureSuccessStatusCode();
             var created = await post.Content.ReadFromJsonAsync<BandResponse>();
 
-            // Act
             var response = await _client.GetAsync("/api/bands");
-
-            // Assert
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
             var list = await response.Content.ReadFromJsonAsync<List<BandResponse>>();
             Assert.Contains(list!, b => b.Id == created!.Id && b.Name == request.Name);
@@ -61,16 +53,12 @@ namespace JamWav.Web.Tests.Integration.Controllers
         [Fact]
         public async Task GetBandById_ShouldReturnSingleBand()
         {
-            // Arrange: create a band
             var request = new CreateBandRequest { Name = "Single Band" };
             var post    = await _client.PostAsJsonAsync("/api/bands", request);
             post.EnsureSuccessStatusCode();
             var created = await post.Content.ReadFromJsonAsync<BandResponse>();
 
-            // Act
             var response = await _client.GetAsync($"/api/bands/{created!.Id}");
-
-            // Assert
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
             var band = await response.Content.ReadFromJsonAsync<BandResponse>();
             Assert.Equal(created.Id, band!.Id);
@@ -80,29 +68,65 @@ namespace JamWav.Web.Tests.Integration.Controllers
         [Fact]
         public async Task GetBandById_InvalidId_ShouldReturnNotFound()
         {
-            // Act
             var invalidId = Guid.NewGuid();
             var response  = await _client.GetAsync($"/api/bands/{invalidId}");
-
-            // Assert
             Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
         }
 
         [Fact]
         public async Task CreateBand_DuplicateName_ShouldReturnBadRequest()
         {
-            // Arrange
             var request = new CreateBandRequest { Name = "Dup Band" };
             var first   = await _client.PostAsJsonAsync("/api/bands", request);
             first.EnsureSuccessStatusCode();
 
-            // Act
             var second = await _client.PostAsJsonAsync("/api/bands", request);
-
-            // Assert
             Assert.Equal(HttpStatusCode.BadRequest, second.StatusCode);
             var body = await second.Content.ReadAsStringAsync();
             Assert.Contains($"Band `{request.Name}` already exists", body);
+        }
+
+        [Fact]
+        public async Task UpdateBand_ShouldReturnNoContentAndUpdateName()
+        {
+            // Arrange: create a band
+            var createReq = new CreateBandRequest { Name = "Initial Band" };
+            var createResp = await _client.PostAsJsonAsync("/api/bands", createReq);
+            createResp.EnsureSuccessStatusCode();
+            var created = await createResp.Content.ReadFromJsonAsync<BandResponse>();
+
+            // Act: update
+            var updateReq = new UpdateBandRequest { Name = "Updated Band" };
+            var updateResp = await _client.PutAsJsonAsync($"/api/bands/{created!.Id}", updateReq);
+
+            // Assert: no content
+            Assert.Equal(HttpStatusCode.NoContent, updateResp.StatusCode);
+
+            // Verify change
+            var getResp = await _client.GetAsync($"/api/bands/{created.Id}");
+            getResp.EnsureSuccessStatusCode();
+            var updated = await getResp.Content.ReadFromJsonAsync<BandResponse>();
+            Assert.Equal(updateReq.Name, updated!.Name);
+        }
+
+        [Fact]
+        public async Task DeleteBand_ShouldReturnNoContentAndThenNotFound()
+        {
+            // Arrange: create a band
+            var req = new CreateBandRequest { Name = "ToDelete Band" };
+            var post = await _client.PostAsJsonAsync("/api/bands", req);
+            post.EnsureSuccessStatusCode();
+            var created = await post.Content.ReadFromJsonAsync<BandResponse>();
+
+            // Act: delete
+            var deleteResp = await _client.DeleteAsync($"/api/bands/{created!.Id}");
+
+            // Assert: no content
+            Assert.Equal(HttpStatusCode.NoContent, deleteResp.StatusCode);
+
+            // Verify gone
+            var getResp = await _client.GetAsync($"/api/bands/{created.Id}");
+            Assert.Equal(HttpStatusCode.NotFound, getResp.StatusCode);
         }
     }
 }

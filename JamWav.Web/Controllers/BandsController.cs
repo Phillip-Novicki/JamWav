@@ -47,4 +47,32 @@ public class BandsController : ControllerBase
         
         return CreatedAtAction(nameof(GetBandById), new { id = band.Id }, band.ToResponse());
     }
+
+    // PUT: api/bands/{id}
+    [HttpPut("{id:guid}")]
+    public async Task<IActionResult> Update(Guid id, [FromBody] UpdateBandRequest request)
+    {
+        var existing = await _bandRepository.GetBandById(id);
+        if (existing is null)
+            return NotFound();
+
+        if (await _bandRepository.NameExistsAsync(request.Name) && !string.Equals(existing.Name, request.Name, StringComparison.OrdinalIgnoreCase))
+            return BadRequest($"Band `{request.Name}` already exists");
+
+        existing.UpdateFrom(request);
+        await _bandRepository.UpdateAsync(existing);
+
+        return NoContent();
+    }
+
+    // DELETE: api/bands/{id}
+    [HttpDelete("{id:guid}")]
+    public async Task<IActionResult> Delete(Guid id)
+    {
+        var deleted = await _bandRepository.DeleteAsync(id);
+        if (!deleted)
+            return NotFound();
+
+        return NoContent();
+    }
 }
