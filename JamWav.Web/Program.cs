@@ -55,6 +55,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IFriendRepository, FriendRepository>();
+builder.Services.AddScoped<IBandRepository, BandRepository>();
 
 // 4) MVC + Swagger
 builder.Services.AddControllers();
