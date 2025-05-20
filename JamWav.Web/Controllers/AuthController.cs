@@ -6,6 +6,7 @@ using JamWav.Web.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using JamWav.Web.Models;
 
 namespace JamWav.Web.Controllers;
 
@@ -60,5 +61,22 @@ public class AuthController : ControllerBase
             Token = new JwtSecurityTokenHandler().WriteToken(token),
             Expires = token.ValidTo
         });
+    }
+
+    [HttpPost("register")]
+    public async Task<IActionResult> Register(RegisterRequest dto)
+    {
+        var user = new ApplicationUser
+        {
+            UserName = dto.Username,
+            Email = dto.Email,
+            DisplayName = dto.DisplayName
+        };
+        
+        var result = await _userManager.CreateAsync(user, dto.Password);
+        if (!result.Succeeded)
+            return BadRequest(result.Errors);
+                
+        return CreatedAtAction(null, new { user.Id, user.UserName }, user);
     }
 }
