@@ -1,12 +1,14 @@
 using JamWav.Application.Interfaces;
 using JamWav.Web.Mapping;
 using JamWav.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JamWav.Web.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class EventsController : ControllerBase
 {
     private readonly IEventRepository _repository;

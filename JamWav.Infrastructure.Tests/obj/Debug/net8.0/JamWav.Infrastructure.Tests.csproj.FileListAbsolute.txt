@@ -189,3 +189,5 @@
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Infrastructure.Tests/obj/Debug/net8.0/JamWav.Infrastructure.Tests.genruntimeconfig.cache
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Infrastructure.Tests/obj/Debug/net8.0/ref/JamWav.Infrastructure.Tests.dll
 /Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Infrastructure.Tests/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Infrastructure.Tests/bin/Debug/net8.0/MediatR.dll
+/Users/pnovicki/1 - Projects/Coding/Personal Projects/JamWav/JamWav.Infrastructure.Tests/bin/Debug/net8.0/MediatR.Contracts.dll

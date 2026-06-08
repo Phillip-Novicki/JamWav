@@ -3,11 +3,13 @@ using JamWav.Domain.Entities;
 using JamWav.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using JamWav.Web.Mapping;
+using Microsoft.AspNetCore.Authorization;
 
 namespace JamWav.Web.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class UsersController : ControllerBase
 {
     private readonly IUserRepository _userRepository;

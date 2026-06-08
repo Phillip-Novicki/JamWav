@@ -1,82 +1,66 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using JamWav.Domain.Entities;
-using JamWav.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
+using JamWav.Domain.Entities;
 using JamWav.Web.Models;
+using JamWav.Web.Services;
 
-namespace JamWav.Web.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class AuthController : ControllerBase
+namespace JamWav.Web.Controllers
 {
-    private readonly UserManager<ApplicationUser> _userManager;
-    private readonly SignInManager<ApplicationUser> _signInManager;
-    private readonly IConfiguration _config;
-
-    public AuthController(
-        UserManager<ApplicationUser> userManager,
-        SignInManager<ApplicationUser> signInManager,
-        IConfiguration config)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class AuthController : ControllerBase
     {
-        _userManager = userManager;
-        _signInManager = signInManager;
-        _config = config;
-    }
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IJwtTokenService _jwt;
 
-    [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] LoginRequest dto)
-    {
-        var user = await _userManager.FindByEmailAsync(dto.Username);
-        if (user == null)
-            return Unauthorized("Invalid credentials");
-        var result = await _signInManager.CheckPasswordSignInAsync(user, dto.Password, false);
-        if (!result.Succeeded)
-            return Unauthorized("Invalid credentials");
-
-        var claims = new[]
+        public AuthController(
+            UserManager<ApplicationUser> userManager,
+            IJwtTokenService jwt)
         {
-            new Claim(JwtRegisteredClaimNames.Sub, user.UserName!),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-            new Claim("uid", user.Id.ToString())
-        };
+            _userManager = userManager;
+            _jwt          = jwt;
+        }
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
-        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-        var token = new JwtSecurityToken(
-            issuer: _config["Jwt:Issuer"],
-            audience: _config["Jwt:Audience"],
-            claims: claims,
-            expires: DateTime.Now.AddMinutes(60),
-            signingCredentials: creds
-        );
-
-        return Ok(new LoginResponse
+        [HttpPost("login")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login(LoginRequest dto)
         {
-            Token = new JwtSecurityTokenHandler().WriteToken(token),
-            Expires = token.ValidTo
-        });
-    }
+            var user = await _userManager.FindByNameAsync(dto.Username);
+            if (user == null || !await _userManager.CheckPasswordAsync(user, dto.Password))
+                return Unauthorized();
 
-    [HttpPost("register")]
-    public async Task<IActionResult> Register(RegisterRequest dto)
-    {
-        var user = new ApplicationUser
+            var token = _jwt.GenerateToken(user);
+            return Ok(new LoginResponse { Token = token });
+        }
+
+        [HttpPost("register")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Register(RegisterRequest dto)
         {
-            UserName = dto.Username,
-            Email = dto.Email,
-            DisplayName = dto.DisplayName
-        };
-        
-        var result = await _userManager.CreateAsync(user, dto.Password);
-        if (!result.Succeeded)
-            return BadRequest(result.Errors);
-                
-        return CreatedAtAction(null, new { user.Id, user.UserName }, user);
+            if (await _userManager.FindByNameAsync(dto.Username) != null)
+                return BadRequest($"Username '{dto.Username}' already exists");
+
+            var user = new ApplicationUser
+            {
+                UserName    = dto.Username,
+                Email       = dto.Email,
+                DisplayName = dto.Username
+            };
+
+            var result = await _userManager.CreateAsync(user, dto.Password);
+            if (!result.Succeeded)
+                return BadRequest(result.Errors.Select(e => e.Description));
+
+            // map to your response model:
+            var response = new UserResponse
+            {
+                Username    = user.UserName!,
+                Email       = user.Email!,
+                DisplayName = user.DisplayName!
+            };
+
+            return CreatedAtAction(nameof(Register), new { username = user.UserName }, response);
+        }
     }
 }

@@ -3,28 +3,33 @@ using JamWav.Domain.Entities;
 using JamWav.Infrastructure.Persistence;
 using JamWav.Application.Interfaces;
 using JamWav.Infrastructure.Persistence.Repositories;
+using JamWav.Web.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1) EF + your single DbContext
+// 1) EF + single DbContext
 builder.Services.AddDbContext<JamWavDbContext>(opts =>
     opts.UseSqlServer(builder.Configuration.GetConnectionString("JamWavDb")));
 
-// 2) Identity over that DbContext
+// 2) Identity
 builder.Services
-    .AddIdentity<ApplicationUser, IdentityRole<Guid>>(options =>
+    .AddIdentity<ApplicationUser, IdentityRole<Guid>>(opts =>
     {
-        options.User.RequireUniqueEmail = true;
-        // tweak password strength etc here...
+        opts.User.RequireUniqueEmail = true;
     })
     .AddEntityFrameworkStores<JamWavDbContext>()
     .AddDefaultTokenProviders();
 
-// 3) JWT‑Bearer configuration
+// 3) JWT-Bearer
+var jwtKey = builder.Configuration["Jwt:Key"]
+             ?? throw new InvalidOperationException("Jwt:Key not configured");
+var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -32,9 +37,6 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(opts =>
 {
-    var key = builder.Configuration["Jwt:Key"]
-              ?? throw new InvalidOperationException("Jwt:Key not configured");
-    var keyBytes = Encoding.UTF8.GetBytes(key);
     opts.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
@@ -48,37 +50,69 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// 3.1) register authorization (so [Authorize] actually works)
-builder.Services.AddAuthorization();
+// 4) Swagger + JWT support
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "JamWav API", Version = "v1" });
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name         = "Authorization",
+        Type         = SecuritySchemeType.ApiKey,
+        Scheme       = "Bearer",
+        BearerFormat = "JWT",
+        In           = ParameterLocation.Header,
+        Description  = "Enter your JWT as: Bearer {your token here}"
+    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement {
+        {
+            new OpenApiSecurityScheme {
+                Reference = new OpenApiReference {
+                    Type = ReferenceType.SecurityScheme,
+                    Id   = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
 
-// 3.2) register application repositories for DI
+// 5) Authorization & Repositories & Services
+builder.Services.AddAuthorization();
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssembly(typeof(JamWav.Application.AssemblyMarker).Assembly));
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IFriendRepository, FriendRepository>();
 builder.Services.AddScoped<IBandRepository, BandRepository>();
+builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 
-// 4) MVC + Swagger
+// 6) Controllers
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// only enable swagger when *not* running under your IntegrationTests environment
+// apply any pending migrations at startup
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<JamWavDbContext>();
+    db.Database.Migrate();
+}
+
+// only show swagger UI outside integration‐test runs
 if (!app.Environment.IsEnvironment("IntegrationTests"))
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "JamWav API V1"));
 }
 
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
 app.Run();
 
 namespace JamWav.Web
 {
-    // expose the generated Program class so your tests can tie into it
     public partial class Program { }
 }

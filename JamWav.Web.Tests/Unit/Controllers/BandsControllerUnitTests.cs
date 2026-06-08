@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using JamWav.Web.Controllers;
 using JamWav.Web.Models;
+using JamWav.Application.Bands.Queries.GetAllBands;
 using JamWav.Application.Interfaces;
 using JamWav.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
@@ -14,12 +16,14 @@ namespace JamWav.Web.Tests.Unit.Controllers
     public class BandsControllerUnitTests
     {
         private readonly Mock<IBandRepository> _repoMock;
-        private readonly BandsController       _controller;
+        private readonly Mock<ISender> _senderMock;
+        private readonly BandsController _controller;
 
         public BandsControllerUnitTests()
         {
             _repoMock = new Mock<IBandRepository>();
-            _controller = new BandsController(_repoMock.Object);
+            _senderMock = new Mock<ISender>();
+            _controller = new BandsController(_senderMock.Object, _repoMock.Object);
         }
 
         [Fact]
@@ -31,7 +35,8 @@ namespace JamWav.Web.Tests.Unit.Controllers
                 new Band("Band1", "Genre1", "Origin1"),
                 new Band("Band2", "Genre2", "Origin2")
             };
-            _repoMock.Setup(r => r.GetAllAsync()).ReturnsAsync(bands);
+            _senderMock.Setup(s => s.Send(It.IsAny<GetAllBandsQuery>(), default))
+                .ReturnsAsync(bands);
 
             // Act
             var result = await _controller.GetAllBands();

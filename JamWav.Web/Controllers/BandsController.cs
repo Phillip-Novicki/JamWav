@@ -1,25 +1,31 @@
+using JamWav.Application.Bands.Queries.GetAllBands;
 using JamWav.Application.Interfaces;
 using JamWav.Web.Mapping;
 using JamWav.Web.Models;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace JamWav.Web.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class BandsController : ControllerBase
 {
+    private readonly ISender _sender;
     private readonly IBandRepository _bandRepository;
 
-    public BandsController(IBandRepository bandRepository)
+    public BandsController(ISender sender, IBandRepository bandRepository)
     {
+        _sender = sender;
         _bandRepository = bandRepository;
     }
 
     [HttpGet]
     public async Task<IActionResult> GetAllBands()
     {
-        var bands = await _bandRepository.GetAllAsync();
+        var bands = await _sender.Send(new GetAllBandsQuery());
         var responses = bands.Select(b => b.ToResponse());
         return Ok(responses);
     }

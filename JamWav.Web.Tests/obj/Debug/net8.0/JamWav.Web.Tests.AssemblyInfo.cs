@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JamWav.Web.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0926132eec33e9df2fc210b1e61d629a89f065c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d78c759e5b7dc9386d0f93f3273da99d4a94dda5")]
 [assembly: System.Reflection.AssemblyProductAttribute("JamWav.Web.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JamWav.Web.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
