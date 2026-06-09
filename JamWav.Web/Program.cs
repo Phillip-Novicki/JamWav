@@ -26,10 +26,6 @@ builder.Services
     .AddDefaultTokenProviders();
 
 // 3) JWT-Bearer
-var jwtKey = builder.Configuration["Jwt:Key"]
-             ?? throw new InvalidOperationException("Jwt:Key not configured");
-var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
-
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -37,10 +33,12 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(opts =>
 {
+    var jwtKey = builder.Configuration["Jwt:Key"]
+                 ?? throw new InvalidOperationException("Jwt:Key not configured");
     opts.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey         = new SymmetricSecurityKey(keyBytes),
+        IssuerSigningKey         = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey)),
         ValidateIssuer           = true,
         ValidIssuer              = builder.Configuration["Jwt:Issuer"],
         ValidateAudience         = true,
@@ -92,11 +90,12 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// apply any pending migrations at startup
+// apply any pending migrations at startup (skipped for InMemory in integration tests)
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<JamWavDbContext>();
-    db.Database.Migrate();
+    if (db.Database.IsRelational())
+        db.Database.Migrate();
 }
 
 // only show swagger UI outside integration‐test runs

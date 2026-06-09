@@ -4,7 +4,7 @@ using MediatR;
 
 namespace JamWav.Application.Bands.Queries.GetAllBands;
 
-public class GetAllBandsHandler
+public class GetAllBandsHandler : IRequestHandler<GetAllBandsQuery, IEnumerable<Band>>
 {
     private readonly IBandRepository _bandRepository;
 
