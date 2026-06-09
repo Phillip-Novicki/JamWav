@@ -15,6 +15,8 @@ public class JamWavDbContext : IdentityDbContext<ApplicationUser, IdentityRole<G
     public DbSet<Band> Bands { get; set; }
     public DbSet<Event> Events { get; set; }
     public DbSet<Friend> Friends { get; set; }
+    
+    public DbSet<UserMusicProfile> UserMusicProfiles { get; set; }
    
     
 
@@ -60,5 +62,18 @@ public class JamWavDbContext : IdentityDbContext<ApplicationUser, IdentityRole<G
             entity.Property(f => f.FriendUserId).IsRequired();
             entity.Property(f => f.CreatedAt).IsRequired();
         });
+        
+        modelBuilder.Entity<UserMusicProfile>(entity =>
+        {
+            entity.HasKey(u => u.Id);
+            entity.Property(u => u.UserId).IsRequired();
+            entity.Property(u => u.SpotifyUserId).IsRequired();
+            entity.Property(u => u.SpotifyAccessToken).IsRequired();
+            entity.Property(u => u.SpotifyRefreshToken).IsRequired();
+            entity.Property(u => u.TopArtists).HasColumnType("nvarchar(max)");
+            entity.Property(u => u.TopTracks).HasColumnType("nvarchar(max)");
+            entity.Property(u => u.TopGenres).HasColumnType("nvarchar(max)");
+        });
+
     }
 }
