@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/JamWav.Web.Tests.props" />
-</Project>
