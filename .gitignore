@@ -25,3 +25,6 @@ appsettings.*.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Credentials
+githubkey*
