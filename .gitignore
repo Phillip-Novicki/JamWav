@@ -28,3 +28,6 @@ Thumbs.db
 
 # Credentials
 githubkey*
+
+# Local notes
+CLAUDE_CONTEXT.md
