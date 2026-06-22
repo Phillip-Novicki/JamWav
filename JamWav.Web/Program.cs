@@ -3,6 +3,7 @@ using JamWav.Domain.Entities;
 using JamWav.Infrastructure.Persistence;
 using JamWav.Application.Interfaces;
 using JamWav.Infrastructure.Persistence.Repositories;
+using JamWav.Infrastructure.Services;
 using JamWav.Web.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -79,10 +80,12 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddAuthorization();
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(JamWav.Application.AssemblyMarker).Assembly));
+builder.Services.AddHttpClient<ISpotifyService, SpotifyService>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IFriendRepository, FriendRepository>();
 builder.Services.AddScoped<IBandRepository, BandRepository>();
+builder.Services.AddScoped<IUserMusicProfileRepository, UserMusicProfileRepository>();
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 
 // 6) Controllers

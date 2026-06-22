@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamWav.Infrastructure.Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamWav.Web.Tests", "JamWav.Web.Tests\JamWav.Web.Tests.csproj", "{4D1C7BEF-6A3F-4C0D-A25C-0288D452C93C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamWav.Application.Tests", "JamWav.Application.Tests\JamWav.Application.Tests.csproj", "{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,18 @@ Global
 		{4D1C7BEF-6A3F-4C0D-A25C-0288D452C93C}.Release|x64.Build.0 = Release|Any CPU
 		{4D1C7BEF-6A3F-4C0D-A25C-0288D452C93C}.Release|x86.ActiveCfg = Release|Any CPU
 		{4D1C7BEF-6A3F-4C0D-A25C-0288D452C93C}.Release|x86.Build.0 = Release|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Debug|x64.Build.0 = Debug|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Debug|x86.Build.0 = Debug|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Release|x64.ActiveCfg = Release|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Release|x64.Build.0 = Release|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Release|x86.ActiveCfg = Release|Any CPU
+		{27F3FE26-3BC0-4AAD-964F-DA3EC283023F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
